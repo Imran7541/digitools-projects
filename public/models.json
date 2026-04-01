@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "period": "Unlimited AI generations",
+    "tag": "50+ writing templates",
+    "features":"Grammar checker",
+    "icon": "https://cdn-icons-png.flaticon.com/512/509/509702.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 49,
+    "period": "2000+ templates",
+    "tag": "Monthly updates",
+    "features": "Commercial license",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX8DvELGZGNnpcl8y-hPR2DOujQAXAD1jhGg&s"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 19,
+    "period": "10M+ assets",
+    "tagType": "Commercial use ",
+    "features": "No attribution",
+    "icon": "https://w7.pngwing.com/pngs/519/947/png-transparent-camera-computer-icons-graphy-camera-electronics-rectangle-photography-thumbnail.png"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    "price": 79,
+    "period": "50+ automations",
+    "tag": "API access",
+    "features": "Custom workflows",
+    
+    "icon": "https://cdn-icons-png.flaticon.com/128/11502/11502031.png"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters that land interviews.",
+    "price": 15,
+    "period": "100+ templates",
+    "tag": "ATS optimization",
+    "features":"Export to PDF",
+    "icon": "https://cdn-icons-png.flaticon.com/128/942/942748.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
+    "price": 39,
+    "period": "5000+ assets",
+    "tag": "Scheduler included",
+    "features":"Analytics dashboard",
+    "icon": "https://cdn-icons-png.flaticon.com/128/4187/4187336.png"
+    
+  }
+]
