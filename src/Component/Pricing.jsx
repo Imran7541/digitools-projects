@@ -5,9 +5,7 @@ const Pricing = () => {
     <div className="max-w-7xl mx-auto py-16 px-6">
       {/* Header */}
       <div className="text-center mb-12">
-        <div className="inline-block bg-blue-600 text-white text-sm font-medium px-6 py-2 rounded-full mb-4">
-          1600 × 762 Hug
-        </div>
+        
         <h1 className="text-4xl font-bold text-gray-900 mb-3">
           Simple, Transparent Pricing
         </h1>

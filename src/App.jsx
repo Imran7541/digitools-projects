@@ -9,6 +9,7 @@ import { useState } from "react";
 import Pricing from "./Component/Pricing";
 import GetStarted from "./Component/GetStarted";
 import ReadyToTransform from "./Component/ReadyToTransform";
+import StatsSection from "./Component/StatsSection";
 
 const getModels = async () => {
   const res = await fetch("/models.json");
@@ -25,6 +26,7 @@ function App() {
     <>
       <NavBar carts={carts} />
       <Banner />
+      <StatsSection/>
 
       <div className="tabs tabs-box justify-center bg-transparent">
         <input
