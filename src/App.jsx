@@ -26,33 +26,43 @@ function App() {
     <>
       <NavBar carts={carts} />
       <Banner />
-      <StatsSection/>
+      <StatsSection />
 
       <div className="tabs tabs-box justify-center bg-transparent">
-        <input
-          type="radio"
-          name="my_tabs_1"
-          className="tab rounded-full w-30"
-          aria-label="Products"
-          onClick={() => setActiveTab("model")}
-          defaultChecked
-        />
-        <input
-          type="radio"
-          name="my_tabs_1"
-          className="tab rounded-full w-30"
-          aria-label={`Cart(${carts.length})`}
-          onClick={() => setActiveTab("cart")}
-        />
+        <div className="text-center  rounded-3xl p-8 mb-5 mt-10 bg-white">
+          <h1 className="text-5xl font-bold text-gray-900 mb-3">
+            Premium Digital Tools
+          </h1>
+          <p className="text-gray-600 max-w-2xl mx-auto mb-6 text-lg">
+            Choose from our curated collection of premium digital products
+            designed to boost your productivity and creativity.
+          </p>
+
+          <input
+            type="radio"
+            name="my_tabs_1"
+            className="tab rounded-full w-30"
+            aria-label="Products"
+            onClick={() => setActiveTab("model")}
+            defaultChecked
+          />
+          <input
+            type="radio"
+            name="my_tabs_1"
+            className="tab rounded-full w-30"
+            aria-label={`Cart(${carts.length})`}
+            onClick={() => setActiveTab("cart")}
+          />
+        </div>
       </div>
 
       {activeTab === "cart" && <CartDy carts={carts} setCarts={setCarts} />}
       {activeTab === "model" && (
         <Models modelPromise={modelPromise} carts={carts} setCarts={setCarts} />
       )}
-      <GetStarted/>
-      <Pricing/>
-      <ReadyToTransform/>
+      <GetStarted />
+      <Pricing />
+      <ReadyToTransform />
       <Footer />
     </>
   );
