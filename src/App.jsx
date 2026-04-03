@@ -29,7 +29,7 @@ function App() {
       <StatsSection />
 
       <div className="tabs tabs-box justify-center bg-transparent">
-        <div className="text-center  rounded-3xl p-8 mb-5 mt-10 bg-white">
+        <div className="text-center rounded-3xl p-8 mb-5 mt-10 bg-white">
           <h1 className="text-5xl font-bold text-gray-900 mb-3">
             Premium Digital Tools
           </h1>
@@ -41,7 +41,7 @@ function App() {
           <input
             type="radio"
             name="my_tabs_1"
-            className="tab rounded-full w-30"
+            className={`tab rounded-full w-30 ${activeTab === "model" ? "bg-purple-500 text-white" : ""}`}
             aria-label="Products"
             onClick={() => setActiveTab("model")}
             defaultChecked
@@ -49,7 +49,7 @@ function App() {
           <input
             type="radio"
             name="my_tabs_1"
-            className="tab rounded-full w-30"
+            className={`tab rounded-full w-30 ${activeTab === "cart" ? "bg-purple-500 text-white" : ""}`}
             aria-label={`Cart(${carts.length})`}
             onClick={() => setActiveTab("cart")}
           />
