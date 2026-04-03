@@ -64,11 +64,13 @@ const Pricing = () => {
                 : "bg-gray-50 text-gray-900 hover:bg-white hover:shadow-xl hover:-translate-y-1"
             }`}
           >
-            {plan.isPopular && (
-              <p className="bg-orange-400 text-white text-[10px] font-bold w-fit px-2 py-0.5 rounded-full mb-4 uppercase">
+           <div className="relative">
+                        {plan.isPopular && (
+              <p className="bg-orange-400 text-white text-xs font-bold w-fit px-2 py-0.5 rounded-full uppercase absolute -top-6 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center ">
                 Most Popular
               </p>
             )}
+           </div>
 
             <div className="mb-4">
               <h3 className="text-xl font-bold">{plan.name}</h3>
